@@ -1,0 +1,130 @@
+.header-wrapper {
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.2);
+}
+
+.header-section {
+    display: flex;
+    margin: auto;
+    padding: 18px;
+    width: 1460px;
+    height: 88px;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+
+    &__btn-search {
+        font-size: 20px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    &__buttons__menu {
+        width: 800px;
+        justify-content: space-between;
+        display: flex;
+        list-style-type: none;
+
+        &__item_hover {
+            font-size: 15px;
+        }
+
+        &__item__btn {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            border: none;
+            background: none;
+            cursor: pointer;
+        
+            &:hover {
+                color: rgb(75, 94, 151);
+                .header-nav__buttons__menu__item_hover {
+                    transform: rotate(180deg);
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+.header-nav__links {
+    display: flex;
+
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        
+        &__link {
+            list-style-type: none;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        &__link-contact {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+
+            &_color {
+                color: #23232D;
+
+                &:hover {
+                    color: rgb(75, 94, 151);
+                }
+            }
+        }
+
+        &__link-login {
+            color: #23232D;
+            width: 75px;
+            height: 40px;
+            text-align: center;
+            border: 1px solid #23232D;
+            border-radius: 3px;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &_color {
+                border: none;
+                color: #23232D;
+            }
+        }
+    
+
+        &__link-start {
+            background-color: #ffdc28;
+            text-align: center;
+            width: 110px;
+            height: 40px;
+            
+            &:hover{
+                opacity: 0.7;
+            }
+
+            &_color {
+                color: #23232D;
+            }
+
+        }
+    }
+}
+    
