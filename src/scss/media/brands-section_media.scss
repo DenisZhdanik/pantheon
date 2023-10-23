@@ -1,0 +1,14 @@
+@media (max-width:1270px) {
+    .brands {
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        &-logo {
+            margin-bottom: 10px;
+            width: 120px;
+        }
+    }
+}

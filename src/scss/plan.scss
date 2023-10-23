@@ -1,0 +1,45 @@
+@import "./variable.scss";
+
+.plan-section {
+    background-color: #F3F3F3;
+    margin-bottom: 100px;
+}
+
+.plan {
+    text-align: center;
+    padding: 60px;
+}
+
+.plan__header {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.plan__subheader {
+    color: #6d6d78;
+    font-family: "Aleo",serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.plan__link {
+    color: #23232d;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: $first-btn-color;
+    padding: 11px 20px;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: $first-btn-color_hover;
+    }
+
+    &:active {
+        background-color: $first-btn-color_active;
+    }
+}

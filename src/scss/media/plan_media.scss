@@ -1,0 +1,23 @@
+@media (max-width:960px) {
+    .plan__header {
+        font-size: 32px;
+    }
+
+    .plan__subheader {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:900px) {
+    .plan {
+        padding: 20 5px;
+    }
+
+    .plan__header {
+        font-size: 28px;
+    }
+
+    .plan__subheader {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,44 @@
+.statistic-icon-section {
+    margin-bottom: 80px;
+}
+
+.statistic-icon {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.statistic-icon-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistic-icon-block__img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.statistic-icon-block__header {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.statistic-icon-block__subheader {
+    text-align: center;
+    color: #6d6d78;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.statistic-icon-separator {
+    width: 1px;
+    border: 1px solid #cfcfd3;
+}

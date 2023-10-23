@@ -1,0 +1,53 @@
+$first-btn-color: #ffdc28;
+$first-btn-color_hover:#FFE668;
+$first-btn-color_active: #ddbd16;
+
+$second-btn-color: #fff;
+$second-btn-color_hover: #f8f8f8;
+
+$solutions-descr:#0f62fe;
+
+@mixin link {
+    color: #3017a1;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 4px 0;
+}
+
+@mixin link-hover {
+    text-decoration: underline;
+}
+
+@mixin link-active {
+    color: #de0093;
+    text-decoration: underline;
+    text-decoration-color:#de0093;
+}
+
+@mixin go-beyond__text-supheader {
+    color: #6d6d78;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+@mixin go-beyond__text-header {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+@mixin go-beyond__text-subheader {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 20px;
+}

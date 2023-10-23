@@ -1,0 +1,109 @@
+@import "./variable.scss";
+
+.resources-header-block {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.resources__header {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.resources__header-btn {
+    color: #23232d;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: $first-btn-color;
+    padding: 11px 20px;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: $first-btn-color_hover;
+    }
+
+    &:active {
+        background-color: $first-btn-color_active;
+    }
+}
+
+.resources-block {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 36px;
+    padding: 0 48px;
+    margin-bottom: 80px;
+}
+
+.resources-block-wrapp {
+    width: 340px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,.2),0px 3px 8px 0px rgba(0,0,0,.15);
+}
+
+.resources-block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 380px;
+}
+
+.resources-block__img {
+    width: 100%;
+    height: auto;
+}
+
+.resources-block-up__date {
+    color: #6d6d78;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.resources-block-up__title {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+.resources-block-down__author, .resources-block-down__estimate {
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.resources-block-down__estimate {
+    margin-bottom: 30px;
+}
+
+.resources-block-down-btn-block {
+    text-align: center;
+}
+
+.resources-block__down-btn-block_link {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #3017a1;
+    // text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #6f54e8;
+        transition: 0.2s;
+    }
+}

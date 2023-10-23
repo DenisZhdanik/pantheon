@@ -1,0 +1,36 @@
+@media (max-width:1270px) {
+    .trust-company-block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .trust-company {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:1270px) {
+    .trust__header {
+        font-size: 25px;
+    }
+
+    .trust__btn-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trust__btn-block_hover-see {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .trust-company {
+        height: 100%;
+    }
+
+    .trust__company_link {
+        padding: 7px;
+    }
+}

@@ -1,0 +1,33 @@
+@media (max-width:1150px) {
+    
+    .what_is__text-header {
+        font-size: 32px;
+    }
+
+    .what_is__text-subheader {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:900px) {
+    .what-is {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .what_is__text-header {
+        font-size: 30px;
+    }
+
+    .what_is__text-subheader {
+        font-size: 18px;
+    }
+
+    
+
+    .what-is__img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,7 +1,42 @@
+
+@import "./variable.scss";
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1320px;
+    padding: 40px 60px;
+}
+
+@media (max-width:900px) {
+    .container {
+        padding: 30px 15px;
+    }
+}
+
+.repeat-descr-links-color {
+    @include link;
+
+    &:hover {
+        @include link-hover;
+    }
+
+    &_link:active {
+        @include link-active;
+    }
+}
+
+.repeat__descr-arrow {
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10px;
 }
 

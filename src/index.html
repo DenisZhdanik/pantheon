@@ -1,67 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>phanteon</title>
     <link rel="stylesheet" href="./scss/repeat.scss">
     <link rel="stylesheet" href="./scss/header.scss">
+    <link rel="stylesheet" href="./scss/first-section.scss">
+    <link rel="stylesheet" href="./scss/media/header_media.scss">
+    <link rel="stylesheet" href="./scss/media/first-section_media.scss">
+    <link rel="stylesheet" href="./scss/brands-section.scss">
+    <link rel="stylesheet" href="./scss/media/brands-section_media.scss">
+    <link rel="stylesheet" href="./scss/solutions.scss">
+    <link rel="stylesheet" href="./scss/media/solutions-section_media.scss">
+    <link rel="stylesheet" href="./scss/love-pantheon.scss">
+    <link rel="stylesheet" href="./scss/media/love-pantheon_media.scss">
+    <link rel="stylesheet" href="./scss/built.scss">
+    <link rel="stylesheet" href="./scss/media/built_media.scss">
+    <link rel="stylesheet" href="./scss/what-is.scss">
+    <link rel="stylesheet" href="./scss/media/what-is_media.scss">
+    <link rel="stylesheet" href="./scss/statistic_icon.scss">
+    <link rel="stylesheet" href="./scss/media/statistic-icon_media.scss">
+    <link rel="stylesheet" href="./scss/trust.scss">
+    <link rel="stylesheet" href="./scss/media/trust_media.scss">
+    <link rel="stylesheet" href="./scss/go-beyond.scss">
+    <link rel="stylesheet" href="./scss/media/go-beyond_media.scss">
+    <link rel="stylesheet" href="./scss/resources.scss">
+    <link rel="stylesheet" href="./scss/media/resources_media.scss">
+    <link rel="stylesheet" href="./scss/plan.scss">
+    <link rel="stylesheet" href="./scss/media/plan_media.scss">
+    <link rel="stylesheet" href="./scss/footer.scss">
+    <link rel="stylesheet" href="./scss/media/footer_media.scss">
 
-    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
-    <header class="header-wrapper">
+    <header class="header">
         <div class="header-section">
             <div class="header-logo">
-                <a href="#" class="header-logo__link">
-                    <img src="./img/pantheon-logo.svg" alt="#" class="header-logo__img">
+                <a href="#" class="header-logo-link">
+                    <img src="./img/header/pantheon-logo.svg" alt="#" class="header__logo-img">
                 </a>
             </div>
+
+            <button class="header__nav-bar"><i class="fa-solid fa-bars"></i></button>
+
             <div class="header-nav">
-                <nav class="header-nav__buttons">
-                    <ul class="header-nav__buttons__menu">
-                        <li class="header-nav__buttons__menu__item">
-                            <button class="header-nav__buttons__menu__item__btn">About
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                <nav class="header-nav-buttons">
+                    <ul class="header-nav-menu">
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">About
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
-                        <li class="header-nav__buttons__menu-item">
-                            <button class="header-nav__buttons__menu__item__btn">Products
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">Products
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
-                        <li class="header-nav__buttons__menu-item">
-                            <button class="header-nav__buttons__menu__item__btn">Pricing & Plans
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">Pricing & Plans
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
-                        <li class="header-nav__buttons__menu-item">
-                            <button class="header-nav__buttons__menu__item__btn">Partners
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">Partners
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
-                        <li class="header-nav__buttons__menu-item">
-                            <button class="header-nav__buttons__menu__item__btn">Services
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">Services
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
-                        <li class="header-nav__buttons__menu-item">
-                            <button class="header-nav__buttons__menu__item__btn">Resources
-                                <i class="fa-solid fa-angle-down header-nav__buttons__menu__item_hover"></i>
+                        <li class="header-nav-items">
+                            <button class="header__nav-btn">Resources
+                                <i class="fa-solid fa-angle-down header__nav-down_hover"></i>
                             </button>
                         </li>
                     </ul>
                 </nav>
-                <button class="header-nav__btn-search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                <button class="header__nav-search btn-click">
+                    <i class="fa-solid fa-magnifying-glass btn-click_search"></i>
                 </button>
-                <nav class="header-nav__links">
-                    <ul class="header-nav__links__menu">
-                        <li class="header-nav__links__menu__link header-nav__links__menu__link-contact"><a href="#" class="header-nav__links__menu__link-contact_color">Contact</a></li>
-                        <li class="header-nav__links__menu__link header-nav__links__menu__link-login"><a href="#" class="header-nav__links__menu__link-login_color">Log In</a></li>
-                        <li class="header-nav__links__menu__link header-nav__links__menu__link-start"><a href="#" class="header-nav__links__menu__link-start_color">Start Free</a></li>
+
+                <nav class="header-nav-links links-menu">
+                    <ul class="links-menu-list">
+                        <li class="links-menu-item links-menu-item-contact">
+                            <a href="https://pantheon.io/contact-us" target="_blank"
+                                class="links-menu-item-contact_color">Contact
+                            </a>
+                        </li>
+
+                        <li class="links-menu-item links-menu-item-login">
+                            <a href="https://dashboard.pantheon.io/login" target="_blank"
+                                class="links-menu-item-login_color">Log In
+                            </a>
+                        </li>
+
+                        <li class="links-menu-item links-menu-item-start">
+                            <a href="https://dashboard.pantheon.io/register" target="_blank"
+                                class="links-menu-item-start_color">Start Free
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -70,7 +116,684 @@
         </div>
     </header>
 
+    <main class="main">
+        <section class="first-section">
+            <div class="first-block container">
+                <div class="first-block-text">
+                    <h1 class="first-block-text__header">
+                        Launch WordPress & Drupal Websites up to 2x Faster
+                    </h1>
+                    <p class="first-block-text__paragraph">
+                        Build, host, scale, and manage WordPress, Drupal, and NextJS sites with Pantheon. All in one
+                        secure,
+                        flexible, high velocity environment with up to 99.99% uptime & 24/7 support.
+                    </p>
+                    <div class="first-block-links">
+                        <a href="https://dashboard.pantheon.io/register" target="_blank"
+                            class="first-block-links__started">Get Started</a>
+                        <a href="https://pantheon.io/demo" target="_blank" class="first-block-links__watch">Watch the
+                            Demo</a>
+                    </div>
+                </div>
+                <div class="first-block-img">
+                    <img src="./img/first_section/Developers-transparent.webp" alt="#" class="first-block-img__page">
+                </div>
+            </div>
+        </section>
+
+        <section class="brands-section">
+            <h3 class="brands-section__header">
+                GLOBAL BRANDS TRUST PANTHEON
+            </h3>
+            <div class="brands">
+                <div class="brands-logo">
+                    <img src="./img/brands/google-logo.webp" alt="google-logo" class="brands__logo-img">
+                </div>
+                <div class="brands-logo">
+                    <img src="./img/brands/Drift.svg" alt="drift-logo" class="brands__logo-img">
+                </div>
+                <div class="brands-logo">
+                    <img src="./img/brands/Tableau_logo.svg" alt="tableau-logo" class="brands__logo-img">
+                </div>
+                <div class="brands-logo">
+                    <img src="./img/brands/MSF.svg" alt="msf-logo" class="brands__logo-img">
+                </div>
+                <div class="brands-btn">
+                    <a href="https://pantheon.io/about/customer-success-stories" target="_blank"
+                        class="brands-btn_link">more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="solutions-section">
+            <div class="solutions container">
+                <div class="solutions-text">
+                    <h2 class="solutions__text-header">
+                        Web & Content Solutions Designed for Your Team
+                    </h2>
+                    <p class="solutions__text-paragraph">
+                        From decoupled to ecommerce & website hosting, our all‑inclusive plans power agile
+                        cross‑functional teamwork for fast launches & maintenance.
+                    </p>
+                </div>
+                <div class="solutions__menu">
+                    <div class="solutions-tabs">
+                        <ul class="solutions-list">
+                            <li class="solutions-list-item">
+                                <button class="solutions__list_btn">Developers</button>
+                            </li>
+                            <li class="solutions-list-item">
+                                <button class="solutions__list_btn">Marketers</button>
+                            </li>
+                            <li class="solutions-list-item">
+                                <button class="solutions__list_btn">Higher Education</button>
+                                </li>
+                            <li class="solutions-list-item">
+                                <button class="solutions__list_btn">Agencies</button>
+                            </li>
+                            <li class="solutions-list-item">
+                                <button class="solutions__list_btn">Enterprise</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="solutions-descr">
+                        <div class="solutions-descr-text">
+                            <h2 class="solutions__descr-text-header">Bring Backend, Front-end & Full-stack Development
+                                Together Faster</h2>
+                            <div class="solutions__descr-paragraph">
+                                <ul class="solutions-descr-list">
+                                    <li class="solutions-descr-item"><a
+                                            href="https://pantheon.io/product/professional-developer-tools"
+                                            target="_blank" class="solutions__descr-list_color-one">Shorten Development
+                                            Sprints</a> - Build & <a
+                                            href="https://pantheon.io/professional-services/website-migrations"
+                                            target="_blank" class="solutions__descr-list_color-second">migrate
+                                            websites</a> up to 2x–3x faster with our <a
+                                            href="https://pantheon.io/product" target="_blank"
+                                            class="solutions__descr-list_color-second">WordPress &
+                                            Drupal</a> site & content builder, <a
+                                            href="https://pantheon.io/blog/terminus-pantheon-cli" target="_blank"
+                                            class="solutions__descr-list_color-second">Terminus command line
+                                            interface</a>, and <a href="https://pantheon.io/features/decoupled-cms"
+                                            target="_blank" class="solutions__descr-list_color-second">decoupled
+                                            CMS</a> support. Update multiple sites simultaneously. Simplify
+                                        collaboration with
+                                        role‑based access.</li>
+                                    <li class="solutions-descr-item"><a href="https://docs.pantheon.io/object-cache"
+                                            target="_blank" class="solutions__descr-list_color-one">Achieve Flawless
+                                            Deployments</a> - <a
+                                            href="https://pantheon.io/product/structured-agile-workflows"
+                                            target="_blank" class="solutions__descr-list_color-second">Manage frontend
+                                            and backend</a> in parallel. Make code merges
+                                        and launches easy with Pantheon's <a
+                                            href="https://pantheon.io/events/webinar/getting-started-multidev"
+                                            target="_blank" class="solutions__descr-list_color-second">Multidev</a>
+                                        feature-branching, <a href="https://pantheon.io/integrations/version-control"
+                                            target="_blank" class="solutions__descr-list_color-second">version
+                                            control</a>
+                                        integrations and identical Dev, Test & Live environments.</li>
+                                    <li class="solutions-descr-item"><a
+                                            href="https://pantheon.io/product/advanced-global-cdn" target="_blank"
+                                            class="solutions__descr-list_color-one">Skip the Set-up & Start Coding</a> -
+                                        Manage, iterate & secure your SMB, enterprise, and higher education sites with
+                                        <a href="https://pantheon.io/resources/datasheet/pantheon-advanced-global-cdn-datasheet"
+                                            target="_blank" class="solutions__descr-list_color-second">Advanced Global
+                                            CDN</a>—out of the box. Find geofencing, Web Application Firewall
+                                        (WAF), DDoS protection and free HTTPS certificates ready to go on day one.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="repeat-descr-links">
+                                <div class="repeat-descr-links-color">
+                                    <a href="https://dashboard.pantheon.io/register" target="_blank"
+                                        class="repeat-descr-links-color_link">Get Started
+                                        <div class="repeat__descr-arrow">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="repeat-descr-links-color">
+                                    <a href="https://pantheon.io/demo" target="_blank"
+                                        class="repeat-descr-links-color_link">Watch Demo
+                                        <div class="repeat__descr-arrow">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="solutions__descr-img-block">
+                            <img src="./img/solutions/Pantheon_Homepage_Image.webp" alt="phanteon"
+                                class="solutions__descr-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="love-pantheon-section">
+            <div class="love-pantheon container">
+                <h2 class="love-pantheon__header">
+                    Why +700K Sites 🖤 Pantheon
+                </h2>
+                <div class="love-pantheon-img-block">
+                    <img src="./img/love_pantheon/PantheonG2.webp" alt="pantheon" class="love-pantheon__img">
+                    <img src="./img/love_pantheon/Bestof2023Black.svg" alt="pantheon" class="love-pantheon__img">
+                    <img src="./img/love_pantheon/PantheonSetup2023.webp" alt="pantheon" class="love-pantheon__img">
+                    <img src="./img/love_pantheon/BestOfFeatureWinterBlack.svg" alt="pantheon"
+                        class="love-pantheon__img">
+                    <img src="./img/love_pantheon/PantheonUsersMostLikelytoRecommendSummer2023.webp" alt="pantheon"
+                        class="love-pantheon__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="built-section">
+            <div class="built container">
+                <div class="built-text">
+                    <h2 class="built__header">
+                        Built to scale for your industry
+                    </h2>
+                    <p class="built__subheader">
+                        From retail to hospitality and governments, the world's largest brands & organizations trust
+                        Pantheon to build and serve stable, secure, scalable digital experiences
+                    </p>
+                </div>
+                <div class="built-descr">
+                    <div class="built-descr-nav">
+                        <div class="built-descr-list">
+                            <button class="built__descr-btn">Consumer Brands
+                                <i class="fa-solid fa-angle-down built__descr-down"></i>
+                            </button>
+                            <button class="built__descr-btn">Technology
+                                <i class="fa-solid fa-angle-down built__descr-down"></i>
+                            </button>
+                            <button class="built__descr-btn">eCommerce
+                                <i class="fa-solid fa-angle-down built__descr-down"></i>
+                            </button>
+                            <button class="built__descr-btn">Government
+                                <i class="fa-solid fa-angle-down built__descr-down"></i>
+                            </button>
+                            <a href="https://pantheon.io/industry-solutions" target="_blank"
+                                class="built__descr-link">See All Industry Solutions</a>
+                        </div>
+                    </div>
+                    <div class="built-descr-img-block">
+                        <img src="./img/built/WEB-2x1-CategoryIndustry-Hero.webp" alt="biult_img"
+                            class="built__descr-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="what-is-section">
+            <div class="what-is container">
+                <div class="what-is-img-block">
+                    <img src="./img/what_is/CategoryProduct-Zipper.webp" alt="what-is" class="what-is__img">
+                </div>
+                <div class="what-is-text">
+                    <h3 class="what-is__text-header">
+                        What Is Pantheon?
+                    </h3>
+                    <p class="what-is__text-subheader">
+                        Pantheon is the single SaaS platform provider that affordably integrates website development,
+                        management, performance, team education and hands-on account support. All with enterprise-grade
+                        security and the world's fastest hosting. All in one secure environment.
+                    </p>
+                    <div class="repeat-descr-links">
+                        <div class="repeat-descr-links-color">
+                            <a href="https://dashboard.pantheon.io/register" target="_blank"
+                                class="repeat-descr-links-color_link">Get Started
+                                <div class="repeat__descr-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="repeat-descr-links-color">
+                            <a href="https://pantheon.io/demo" target="_blank"
+                                class="repeat-descr-links-color_link">Watch Demo
+                                <div class="repeat__descr-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="statistic-icon-section">
+            <div class="statistic-icon container">
+                <div class="statistic-icon-block">
+                    <img src="./img/statistics_icons/Pageviews_icon.svg" alt="pageviews"
+                        class="statistic-icon-block__img">
+                    <h3 class="statistic-icon-block__header">+10B</h3>
+                    <h6 class="statistic-icon-block__subheader">Pageviews</h6>
+                </div>
+
+                <div class="statistic-icon-separator"></div>
+
+                <div class="statistic-icon-block">
+                    <img src="./img/statistics_icons/support.svg" alt="pageviews" class="statistic-icon-block__img">
+                    <h3 class="statistic-icon-block__header">24/7</h3>
+                    <h6 class="statistic-icon-block__subheader">Support</h6>
+                </div>
+
+                <div class="statistic-icon-separator"></div>
+
+                <div class="statistic-icon-block">
+                    <img src="./img/statistics_icons/faster_icon.svg" alt="pageviews" class="statistic-icon-block__img">
+                    <h3 class="statistic-icon-block__header">3x</h3>
+                    <h6 class="statistic-icon-block__subheader">Faster Site Migrations</h6>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-section">
+            <div class="trust-block container">
+                <div class="trust">
+                    <h2 class="trust__header">The World's Most Trusted Organizations Trust Pantheon</h2>
+                    <div class="trust-btn-block">
+                        <a href="https://pantheon.io/resources/case-studies" target="_blank"
+                            class="trust__btn-block_hover-see">See All Customer Stories</a>
+                        <a href="https://dashboard.pantheon.io/register" target="_blank"
+                            class="trust__btn-block_hover-get">Get Started Free</a>
+                    </div>
+                </div>
+
+                <div class="trust-company-block">
+                    <div class="trust-company trinity">
+                        <img src="./img/trust/cs-trinity-college.png.webp" alt="trinity" class="trust__company-img">
+                        <div class="trust-comment-block trinity-block">
+                            <h4 class="trust__company-header">Trinity College</h4>
+                            <p class="trust__company-paragraph">"We were looking for a platform as a service solution. A
+                                robust, scalable WordPress solution
+                                like Pantheon was key to freeing our team from sysadmin and maintenance work"</p>
+                            <p class="trust__company-comment"><strong>Tony O'Rourke</strong>
+                                <br>
+                                Software Developer
+                            </p>
+                            <div class="trust-company-link-block">
+                                <a href="https://pantheon.io/resources/case-studies/trinity-college-unites-it-and-communications-wordpress-pantheon"
+                                    target="_blank" class="trust__company_link">See full customer story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trust-company aero">
+                        <img src="./img/trust/Aeromexico-Logo.png.webp" alt="aero" class="trust__company-img">
+                        <div class="trust-comment-block">
+                            <h4 class="trust__company-header">Aeromexico</h4>
+                            <p class="trust__company-paragraph">"The support team of Pantheon...is very responsive, and
+                                very fast. We get expert answers
+                                within the first 15 minutes of asking a question"</p>
+                            <p class="trust__company-comment"><strong>Daniela Soler</strong>
+                                <br>
+                                Systems Development Manager
+                            </p>
+                            <div class="trust-company-link-block">
+                                <a href="https://pantheon.io/resources/case-studies/aeromexico" target="_blank"
+                                    class="trust__company_link">See full customer story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trust-company digi">
+                        <img src="./img/trust/digisavvy_thumb2.png.webp" alt="digi" class="trust__company-img">
+                        <div class="trust-comment-block">
+                            <h4 class="trust__company-header">DigiSavvy</h4>
+                            <p class="trust__company-paragraph">"With [Pantheon] Autopilot... automatically use VRT to
+                                replace hours of quality assurance and delivery results"</p>
+                            <p class="trust__company-comment"><strong>Alex Vasquez</strong>
+                                <br>
+                                Principal and Co-Founder
+                            </p>
+                            <div class="trust-company-link-block">
+                                <a href="https://pantheon.io/resources/case-studies/digisavvy" target="_blank"
+                                    class="trust__company_link">See full customer story</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="go-beyond-section">
+            <div class="go-beyond container">
+                <div class="go-beyond-name-block">
+                    <h2 class="go-beyond__name-block-header">Go Beyond Basic WordPress & Drupal Web Development</h2>
+                    <p class="go-beyond__name-block-subheader">Developer & marketer‑designed web building & content
+                        creation tools + support to save you time and money managing your sites & digital projects.</p>
+                </div>
+                <div class="go-beyond-content go-beyond-block">
+                    <div class="go-beyond-text text-content">
+                        <h4 class="go-beyond__text-supheader text-supheader__content">WEBSITE HOSTING & CONTENT MANAGEMENT</h4>
+                        <h3 class="go-beyond__text-header text-header__content">
+                            Deliver The Right Content to the Right Audience in <1Second
+                            </h3>
+                        <p class="go-beyond__text-subheader text-subheader__content">Serve personalized images, posts, prices and videos to the right audience anywhere in
+                            the world with Pantheon's global data centers and advanced content delivery network.
+                            The world's fastest Drupal, WordPress, and WooCommerce hosting and 99.99% uptime
+                            keep your page speed low and your content live—even during power outages.
+                        </p>
+                        <div class="repeat-descr-links">
+                            <div class="repeat-descr-links-color">
+                                <a href="https://pantheon.io/product" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    See Web Builder Features                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="repeat-descr-links-color">
+                                <a href="https://pantheon.io/demo" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    Watch Our Demo                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="go-beyond-img-block img-block-content">
+                        <img src="./img/go_beyond/Deliver.webp" alt="deliver" class="go-beyond__img">
+                    </div>
+                </div>
+
+                <div class="go-beyond-performance go-beyond-block">
+                    <div class="go-beyond-img-block img-block-perfomance">
+                        <img src="./img/go_beyond/Performance.webp" alt="perfomane" class="go-beyond__img">
+                    </div>
+                    <div class="go-beyond-text text-perfomance">
+                        <h4 class="go-beyond__text-supheader text-supheader__perfomance">
+                            Website Performance & Security
+                        </h4>
+                        <h3 class="go-beyond__text-header text-header__perfomance">Track & Troubleshoot Site Performance in Seconds—Not Hours</h3>
+                        <p class="go-beyond__text-subheader text-subheader__perfomance">Keep your infrastructure intact. Instantly see your site's health with in-dashboard network analytics. 1M+ site checks track and immediately alert you to any drop in global site, content, or network coverage, so you can act in real-time.</p>
+                        <div class="repeat-descr-links">
+                            <div class="repeat-descr-links-color">
+                                <a href="https://pantheon.io/events/webinar/how-improve-your-website-performance" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    See How to Improve Website Performance                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="repeat-descr-links-color">
+                                <a href="https://pantheon.io/resources/ebooks/website-performance-monitoring-101" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    Learn Website Performance Monitoring 101                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="go-beyond__grade go-beyond-block">
+                    <div class="go-beyond-text text-grade">
+                        <h4 class="go-beyond__text-supheader text-supheader__grade">
+                            Developer Success
+                        </h4>
+                        <h3 class="go-beyond__text-header text-header__grade">Find Professional-Grade Professional Development</h3>
+                        <p class="go-beyond__text-subheader text-subheader__grade">Continuously train & educate your team on your terms. Live, recorded, self-paced—all included with every Pantheon Plan.</p>
+                        <div class="repeat-descr-links">
+                            <div class="repeat-descr-links-color">
+                                <a href="https://community.pantheon.io/forum" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    Developer Community Forum                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="repeat-descr-links-color">
+                                <a href="https://learning.pantheon.io" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    Learning Management System                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="repeat-descr-links-color">
+                                <a href="https://pantheon-community.slack.com/join/shared_invite/zt-20z151whf-~rYKZ6VWVZXNPrI8mTD42g#/shared-invite/email" target="_blank"
+                                    class="repeat__descr-links_color-link">
+                                    Pantheon Slack                                  
+                                    <div class="repeat__descr-arrow">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="go-beyond-img-block img-block-grade">
+                        <img src="./img/go_beyond/Category.webp" alt="category" class="go-beyond__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resources-section">
+            <div class="resources container">
+                <div class="resources-header-block">
+                    <h3 class="resources__header">
+                        Pantheon Resources
+                    </h3>
+                    <a href="https://pantheon.io/resources" target="_blank" class="resources__header-btn">See All Resources</a>
+                </div>
+
+                <div class="resources-block">
+                    <div class="resources-block-wrapp wrapp-evolution">
+                        <a href="https://pantheon.io/blog/print-digital-golfcoms-evolution-wordpress-pantheon" target="_blank" class="resources-block__img-link">
+                            <img src="./img/resources/Website Performance Blog Card.png.webp" alt="evolution" class="resources-block__img">
+                        </a>
+                        <div class="resources-block-text">
+                            <div class="resources-block-up">
+                                <p class="resources-block-up__date">MAY 30, 2023</p>
+                                <h3 class="resources-block-up__title">From Print to Digital: Golf.com's Evolution with WordPress on Pantheon</h3>
+                            </div>
+                            <div class="resources-block-down">
+                                <p class="resources-block-down__author">Yulia Popova</p>
+                                <p class="resources-block-down__estimate">Reading estimate: 4 minutes</p>
+                                <div class="resources-block-down-btn-block">
+                                    <a href="https://pantheon.io/blog/print-digital-golfcoms-evolution-wordpress-pantheon" target="_blank" class="resources-block__down-btn-block_link">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resources-block-wrapp wrapp-innovation">
+                        <a href="https://pantheon.io/blog/focus-innovation-instead-site-maintenance-autopilot" target="_blank" class="resources-block__img-link">
+                            <img src="./img/resources/AutoPilot Hero Product Launch (2)_0.png.webp" alt="innovation" class="resources-block__img">
+                        </a>
+                        <div class="resources-block-text">
+                            <div class="resources-block-up">
+                                <p class="resources-block-up__date">AUG 10, 2021</p>
+                                <h3 class="resources-block-up__title">Focus on Innovation, Instead of Site Maintenance with Autopilot</h3>
+                            </div>
+                            <div class="resources-block-down">
+                                <p class="resources-block-down__author">Garrett Moedl</p>
+                                <p class="resources-block-down__estimate">Reading estimate: 2 minutes</p>
+                                <div class="resources-block-down-btn-block">
+                                    <a href="https://pantheon.io/blog/focus-innovation-instead-site-maintenance-autopilot" target="_blank" class="resources-block__down-btn-block_link">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="resources-block-wrapp wrapp-practice">
+                        <a href="https://pantheon.io/blog/why-decoupled-practice-works-tourism-industry" target="_blank" class="resources-block__img-link">
+                            <img src="./img/resources/Decoupled-min.jpg.webp" alt="practice" class="resources-block__img">
+                        </a>
+                        <div class="resources-block-text">
+                            <div class="resources-block-up">
+                                <p class="resources-block-up__date">JUL 25, 2023</p>
+                                <h3 class="resources-block-up__title">Why a Decoupled Practice Works for the Tourism Industry</h3>
+                            </div>
+                            <div class="resources-block-down">
+                                <p class="resources-block-down__author">Michaela Morgan</p>
+                                <p class="resources-block-down__estimate">Reading estimate: 6 minutes</p>
+                                <div class="resources-block-down-btn-block">
+                                    <a href="https://pantheon.io/blog/why-decoupled-practice-works-tourism-industry" target="_blank" class="resources-block__down-btn-block_link">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="plan-section">
+            <div class="plan container">
+                <h2 class="plan__header">See Which Pantheon Plan is Right for Your Team</h2>
+                <p class="plan__subheader">Start free or see how much you could save by switching to Pantheon.</p>
+                <a href="https://pantheon.io/plans/pricing" target="_blank" class="plan__link">See Plan Details</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer container">
+            <div class="footer-nav">
+                <div class="footer-nav-most">
+                    <ul class="footer-nav-most-list">
+                        <li class="footer-nav-most-item">
+                            <ul class="footer-nav-col">
+                                <h5 class="footer-nav-col__header">About</h5>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about" target="_blank" class="footer-nav-rows__link">Company</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about/careers" target="_blank" class="footer-nav-rows__link">Careers</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about/leadership" target="_blank" class="footer-nav-rows__link">Leadership</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about/newsroom" target="_blank" class="footer-nav-rows__link">Newsroom</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav-most-item">
+                            <ul class="footer-nav-col">
+                                <h5 class="footer-nav-col__header">Products</h5>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about/why-pantheon" target="_blank" class="footer-nav-rows__link">Why Pantheon?</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/industry-solutions" target="_blank" class="footer-nav-rows__link">Industry Solutions</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/product/high-performance-web-hosting" target="_blank" class="footer-nav-rows__link">Web Hosting</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/plans/pricing" target="_blank" class="footer-nav-rows__link">Plans & Pricing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav-most-item">
+                            <ul class="footer-nav-col">
+                                <h5 class="footer-nav-col__header">Partners</h5>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/partners/find-pantheon-partner" target="_blank" class="footer-nav-rows__link">Find a Partner</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/partners/become-pantheon-partner" target="_blank" class="footer-nav-rows__link">Become a Partner</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/partners/private-label-solutions-reseller-program" target="_blank" class="footer-nav-rows__link">Reseller Program</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/partners/googlecloud" target="_blank" class="footer-nav-rows__link">Google Cloud Partnership</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav-most-item">
+                            <ul class="footer-nav-col">
+                                <h5 class="footer-nav-col__header">Popular</h5>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/about/whats-new" target="_blank" class="footer-nav-rows__link">What's New?</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/events" target="_blank" class="footer-nav-rows__link">Events</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://status.pantheon.io/" target="_blank" class="footer-nav-rows__link">Platform Status</a>
+                                </li>
+                                <li class="footer-nav-rows">
+                                    <a href="https://pantheon.io/demo" target="_blank" class="footer-nav-rows__link">Pantheon Demo</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-contact">
+                    <ul class="footer-nav-contact-list">
+                        <li class="footer-nav-contact-item">
+                            <h5 class="footer-nav-contact-item__header">Connect</h5>
+                        </li>
+                        <li class="footer-nav-contact-item">
+                            <a href="https://pantheon.io/contact-us" target="_blank" class="footer-nav-contact-item__link">Contact Us</a>
+                        </li>
+                        <li class="footer-nav-contact-item">
+                            <a href="tel:1-855-927-9387" class="footer-nav-contact-item__tel">1-855-927-9387</a>
+                        </li>
+                        <li class="footer-nav-contact-item">
+                            <a href="https://www.facebook.com/getpantheon" target="_blank" class="footer-nav-contact-item-link">
+                                <i class="fa-brands fa-facebook footer-nav-contact-item__icon"></i>
+                            </a>
+                            <a href="https://twitter.com/getpantheon" target="_blank" class="footer-nav-contact-item-link">
+                                <i class="fa-brands fa-twitter footer-nav-contact-item__icon"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/getpantheon" target="_blank" class="footer-nav-contact-item-link">
+                                <i class="fa-brands fa-linkedin footer-nav-contact-item__icon"></i>
+                            </a>
+                            <a href="https://www.youtube.com/user/GetPantheon" target="_blank" class="footer-nav-contact-item-link">
+                                <i class="fa-brands fa-youtube footer-nav-contact-item__icon"></i>
+                            </a>
+                            <a href="https://www.instagram.com/getpantheon/" target="_blank" class="footer-nav-contact-item-link">
+                                <i class="fa-brands fa-instagram footer-nav-contact-item__icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-policy">
+                <ul class="footer-policy-list">
+                    <li class="footer-policy-item">
+                        <p class="footer-policy-item__public">© 2023 Pantheon Systems, Inc.</p>
+                    </li>
+                    <li class="footer-policy-item">
+                        <a href="https://legal.pantheon.io/ClientAgreements.html#contract-bjs3ml8q3" target="_blank" class="footer-policy-item__link">Privacy Policy</a>
+                    </li>
+                    <li class="footer-policy-item">
+                        <a href="https://privacyportal.onetrust.com/webform/fa6fb68e-f740-462d-904a-2646fdf07448/0ddaa1e6-701b-4bbd-9ced-56e8b08aec82" target="_blank" class="footer-policy-item__link">Data Subject Request</a>
+                    </li>
+                    <li class="footer-policy-item">
+                        <a href="https://pantheon.io/pantheon-cookies" target="_blank" class="footer-policy-item__link">Cookie Policy</a>
+                    </li>
+                    <li class="footer-policy-item">
+                        <a href="https://legal.pantheon.io/ClientAgreements.html#contract-bkr0qf-ea" class="footer-policy-item__link" target="_blank">Terms of Use</a>
+                    </li>
+                    <li class="footer-policy-item">
+                        <a href="https://legal.pantheon.io/ClientAgreements.html#contract-rytklrxwt" class="footer-policy-item__link" target="_blank">Acceptable Use Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://kit.fontawesome.com/9fc3b56d82.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
+
+

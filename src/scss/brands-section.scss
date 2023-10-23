@@ -1,0 +1,62 @@
+@import "./variable.scss";
+
+.brands-section {
+    margin: 100px auto 100px;
+    max-width: 1320px;
+    padding: 40px 60px;
+}
+
+.brands-section__header {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    column-gap: 110px;
+    
+    &-logo {
+        width: 150px;
+        height: 50px;
+    }
+
+    &__logo-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.brands-btn {
+    background-color: $second-btn-color;
+    color: #23232D;
+    text-align: center;
+    border: 1px solid #23232D;
+    border-radius: 3px;
+    text-align: center;
+    width: 150px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_link {
+        color: #23232D;
+        font-family: "Poppins", sans-serif;
+        font-size:16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 6px 50px;
+
+        &:hover {
+            background-color: $second-btn-color_hover;
+        }
+    }
+}
+
+

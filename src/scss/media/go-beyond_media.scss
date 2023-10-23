@@ -1,0 +1,43 @@
+@media (max-width:1150px) {
+    
+    .go-beyond__name-block-header {
+        font-size: 32px;
+    }
+
+    .go-beyond__name-block-subheaderr {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:900px) {
+    .go-beyond-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .go-beyond__performance {
+        flex-direction: column-reverse;
+    }
+
+    .go-beyond__text-supheader {
+        font-size: 17px;
+    }
+
+    .go-beyond__text-header {
+        font-size: 30px;
+    }
+
+    .go-beyond__text-subheader {
+        font-size: 16px;
+    }
+
+    .go-beyond-text {
+        width: 100%;
+    }
+
+    .go-beyond__img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,28 @@
+@media (max-width:1000px) {
+    .love-pantheon__header {
+        font-size: 34px;
+    }
+
+    .love-pantheon__img {
+        width: 15%;
+        height: auto;
+    }
+}
+
+@media (max-width:650px) {
+    .love-pantheon__header {
+        font-size: 30px;
+    }
+
+    .love-pantheon__img {
+        width: 120px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .love-pantheon-img-block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

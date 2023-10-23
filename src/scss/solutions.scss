@@ -1,0 +1,123 @@
+@import "./variable.scss";
+
+.solutions-text {
+    margin: auto;
+    max-width: 785px;
+    text-align: center;
+}
+
+.solutions__text-header {
+    text-align: center;
+    max-width: 785px;
+    color: #23232d;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+.solutions__text-paragraph {
+    text-align: center;
+    margin: auto;
+    max-width: 785px;
+    font-family: "Aleo", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #6d6d78;
+    margin-bottom: 70px;
+}
+
+.solutions-list-item {
+    text-align: center;
+    width: 190px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
+    transition: 0.1s;
+
+    &:active {
+        border-bottom: 3px solid #5f41e5;
+    }
+}
+
+.solutions-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    list-style-type: none;
+}
+
+.solutions__list_btn {
+    border: none;
+    color: #454545;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        color: #5f41e5;
+    }
+}
+
+.solutions-descr {
+    border-top: 1px solid #ddd;
+    padding-top: 45px;
+    display: flex;
+
+    &-text {
+        margin-right: 30px;
+    }
+}
+
+.solutions__descr-text-header {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #333;
+    margin-bottom: 75px;
+}
+
+.solutions-descr-list {
+    padding-left: 20px;
+}
+
+.solutions-descr-item {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.solutions__descr-list_color-one {
+    color: $solutions-descr;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.solutions__descr-list_color-second {
+    color: $solutions-descr;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.solutions__descr-img {
+    width: 480px;
+    height: auto;
+}
+
+

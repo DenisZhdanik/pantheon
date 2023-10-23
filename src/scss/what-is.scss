@@ -1,0 +1,31 @@
+.what-is-section {
+    background-color: #F3F3F3;
+}
+
+.what-is {
+    display: flex;
+    column-gap: 50px;
+}
+
+.what-is__img {
+    width: 480px;
+    height: auto;
+
+}
+
+.what-is__text-header {
+    color: #23232d;
+    padding-top: 90px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.what-is__text-subheader {
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}

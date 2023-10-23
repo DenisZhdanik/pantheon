@@ -1,0 +1,55 @@
+@import "../scss/repeat.scss";
+@import "./variable.scss";
+
+
+
+.go-beyond-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.go-beyond-name-block {
+    max-width: 785px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.go-beyond__name-block-header{
+    color: #23232d;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+.go-beyond__name-block-subheader {
+    color: #6D6D78;
+    font-family: "Aleo",sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140%;
+}
+
+.go-beyond__text-supheader {
+    @include go-beyond__text-supheader
+}
+
+.go-beyond__text-header {
+    @include go-beyond__text-header
+}
+
+.go-beyond__text-subheader {
+    @include go-beyond__text-subheader
+}
+
+.go-beyond-text {
+    width: 56%;
+
+}
+
+.go-beyond__img {
+    width: 475px;
+}
